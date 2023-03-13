@@ -22,11 +22,4 @@ Tab:AddButton({
     end    
 })
 
-OrionLib:MakeNotification({
-	Name = "Title!",
-	Content = "[PetChangerID] Starting now...",
-	Image = "rbxassetid://4483345998",
-	Time = 10
-})
-
 OrionLib:Init()
