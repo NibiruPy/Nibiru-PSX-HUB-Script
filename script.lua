@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Window = OrionLib:MakeWindow({Name = "Nibiru [PSX-HUB]", HidePremium = false, SaveConfig = true, ConfigFolder = "Nibiru"})
 OrionLib:MakeNotification({
-	Name = "Title!",
+	Name = "Nibiru [PSX-HUB]",
 	Content = "Welcome to Nibiru [PSX-HUB]",
 	Image = "rbxassetid://4483345998",
 	Time = 10
@@ -28,4 +28,11 @@ _G.Text3 = "[SCRIPT] Checking now..."
 _G.Text4 = "[SCRIPT] Starting now..."
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua%22))()
 	end    
+})
+
+OrionLib:MakeNotification({
+	Name = "Title!",
+	Content = "[PetChangerID] Starting now...",
+	Image = "rbxassetid://4483345998",
+	Time = 10
 })
