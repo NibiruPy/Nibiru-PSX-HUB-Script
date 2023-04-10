@@ -9,7 +9,7 @@ OrionLib:MakeNotification({
 })
 
 local Tab = Window:MakeTab({
-	Name = "PetChangerID",
+	Name = "Fast Eggs",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
