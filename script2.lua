@@ -9,7 +9,7 @@ OrionLib:MakeNotification({
 })
 
 local Tab = Window:MakeTab({
-	Name = "PetChangerID",
+	Name = "Pet-Changer",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -21,5 +21,17 @@ Tab:AddButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ReturnString9999/P-S-X-main-lulz/main/Changer/.lua"))()
     end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "Trade-Scam",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Activate",
+	Callback = function()
+      		print("button pressed")
+    end    
 
 OrionLib:Init()
