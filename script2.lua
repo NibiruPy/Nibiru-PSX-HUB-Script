@@ -33,5 +33,6 @@ Tab:AddButton({
 	Callback = function()
       		print("button pressed")
     end    
+})
 
 OrionLib:Init()
