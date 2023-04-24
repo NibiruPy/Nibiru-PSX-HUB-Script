@@ -9,7 +9,7 @@ OrionLib:MakeNotification({
 })
 
 local Tab = Window:MakeTab({
-	Name = "Pet-Changer",
+	Name = "PetChangerV1",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -18,12 +18,12 @@ Tab:AddButton({
 	Name = "Activate",
 	Callback = function()
       		print("button pressed")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ReturnString9999/P-S-X-main-lulz/main/Changer/.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/lf4d7/daphie/main/psx%20vision"))()
     end    
 })
 
 local Tab = Window:MakeTab({
-	Name = "Trade-Scam",
+	Name = "PetChangerV2",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -32,6 +32,7 @@ Tab:AddButton({
 	Name = "Activate",
 	Callback = function()
       		print("button pressed")
+     
     end    
 })
 
