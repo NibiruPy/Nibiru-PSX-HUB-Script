@@ -23,7 +23,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "PetChanger",
+	Name = "PetChangerV1",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -36,6 +36,19 @@ Tab:AddButton({
     end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "PetChangerV2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Activate",
+	Callback = function()
+      		print("button pressed")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ReturnString9999/New/main/Visual%20Pet%20Changer.lua"))() 
+    end    
+})
 
 local Tab = Window:MakeTab({
 	Name = "NukeLoader",
