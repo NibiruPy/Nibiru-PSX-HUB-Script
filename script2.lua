@@ -9,7 +9,7 @@ OrionLib:MakeNotification({
 })
 
 local Tab = Window:MakeTab({
-	Name = "PetChangerV1",
+	Name = "PetSpawner",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -23,7 +23,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "PetChangerV2",
+	Name = "PetChanger",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
