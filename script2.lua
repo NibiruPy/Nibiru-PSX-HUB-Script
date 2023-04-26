@@ -50,18 +50,4 @@ Tab:AddButton({
     end    
 })
 
-local Tab = Window:MakeTab({
-	Name = "NukeLoader",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-	Name = "Activate",
-	Callback = function()
-      		print("button pressed")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))() 
-    end    
-})
-
 OrionLib:Init()
