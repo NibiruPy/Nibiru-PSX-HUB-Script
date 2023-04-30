@@ -65,6 +65,20 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+	Name = "PetChangerV4",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Activate",
+	Callback = function()
+      		print("button pressed")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DupeHub/IlllIlIIIlllIlIlllIIlIlllIlIIlllI/main/VisualChanger.lua"))()
+    end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "TradeScamV1",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
