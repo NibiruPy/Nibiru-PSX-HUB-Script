@@ -50,4 +50,18 @@ Tab:AddButton({
     end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "MilkUp",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Activate",
+	Callback = function()
+      		print("button pressed")
+    loadstring(game:HttpGet("loadstring(game:HttpGet("https://MilkUp.info/script"))()
+    end    
+})
+
 OrionLib:Init()
