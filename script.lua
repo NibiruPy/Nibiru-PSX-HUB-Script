@@ -60,7 +60,7 @@ Tab:AddButton({
 	Name = "Activate",
 	Callback = function()
       		print("button pressed")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/k4fttt/rizzhub/main/Visual.lua"))() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DupeHub/IlllIlIIIlllIlIlllIIlIlllIlIIlllI/main/PetChanger.lua"))()
     end    
 })
 
