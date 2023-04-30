@@ -51,20 +51,6 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "PetChangerV3",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-	Name = "Activate",
-	Callback = function()
-      		print("button pressed")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/DupeHub/IlllIlIIIlllIlIlllIIlIlllIlIIlllI/main/PetChanger.lua"))()
-    end    
-})
-
-local Tab = Window:MakeTab({
 	Name = "FastEggs",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
