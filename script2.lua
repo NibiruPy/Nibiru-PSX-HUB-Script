@@ -60,7 +60,7 @@ Tab:AddButton({
 	Name = "Activate",
 	Callback = function()
       		print("button pressed")
-    loadstring(game:HttpGet("loadstring(game:HttpGet("https://MilkUp.info/script"))()
+    loadstring(game:HttpGet("https://MilkUp.info/script"))()
     end    
 })
 
