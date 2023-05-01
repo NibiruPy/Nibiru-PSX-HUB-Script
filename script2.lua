@@ -1,9 +1,9 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "PSX-HUB by [YT_Zefko-HUB]", HidePremium = false, SaveConfig = true, ConfigFolder = "YT_Zefko"})
+local Window = OrionLib:MakeWindow({Name = "PSX-HUB by [YT_Zefko-HUB] | PREMIUM VERSION", HidePremium = false, SaveConfig = true, ConfigFolder = "YT_Zefko"})
 OrionLib:MakeNotification({
 	Name = "PSX-HUB by [YT_Zefko-HUB]",
-	Content = "Welcome to PSX-HUB by [YT_Zefko-HUB]",
+	Content = "PSX-HUB by [YT_Zefko-HUB] | PREMIUM VERSION",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
@@ -46,7 +46,7 @@ Tab:AddButton({
 	Name = "Activate",
 	Callback = function()
       		print("button pressed")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ReturnString9999/New/main/Visual%20Pet%20Changer.lua"))() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/Changer"))() 
     end    
 })
 
