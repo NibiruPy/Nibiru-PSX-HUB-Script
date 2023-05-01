@@ -3,7 +3,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "PSX-HUB by [YT_Zefko-HUB] | PREMIUM VERSION", HidePremium = false, SaveConfig = true, ConfigFolder = "YT_Zefko"})
 OrionLib:MakeNotification({
 	Name = "PSX-HUB by [YT_Zefko-HUB]",
-	Content = "PSX-HUB by [YT_Zefko-HUB] | PREMIUM VERSION",
+	Content = "Welcome to PSX-HUB by [YT_Zefko-HUB] | PREMIUM VERSION",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
